@@ -1,8 +1,18 @@
 import React, { Component } from 'react';
 
+import HomeJumbotron from './HomeJumbotron';
+import CarduriHome from './CarduriHome';
+
+import './home.css';
+
 class Home extends Component {
-  render() {    
-    return <h1>Home</h1>;
+  render() {
+    return (
+      <div>
+        <HomeJumbotron />
+        <CarduriHome />
+      </div>
+    );
   }
 }
 

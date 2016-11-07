@@ -1,0 +1,16 @@
+/* TODO ...css */
+
+@media screen and (min-width: 768px) {
+    .home-jumbotron {
+        padding-bottom: 345px;
+        margin-bottom: 30px;
+    }
+}
+
+.home-jumbotron  h1 {
+    font-size: 2.3em;
+}
+
+.carduri-home > p {
+    font-size: 1.5em;
+}
